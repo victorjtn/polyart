@@ -1,3 +1,4 @@
+#include "linha.h"
 #include <cmath>
 #include <sstream>
 

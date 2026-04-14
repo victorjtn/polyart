@@ -39,6 +39,6 @@ bool Cor::operator==(const Cor& outra) const {
 }
 
 std::ostream& operator<<(std::ostream& os, const Cor& cor) {
-    os << cor.to_rgba() << " [" << cor.to_hex() << ']';
+    os << cor.to_rgba();
     return os;
 }
