@@ -34,7 +34,7 @@ public:
     std::string get_camada_ativa() const;
 
     void adicionar_forma(Forma* forma, const std::string& nome_camada = "");
-    void remover_forma(const std::string& nome_camada, int indice, bool destruir = true);
+    void remover_forma(const std::string& nome_camada, int indice);
     void listar_formas_camada(const std::string& nome_camada) const;
     std::vector<Forma*> get_todas_formas() const;
     Camada<Forma>* obter_camada(const std::string& nome);
