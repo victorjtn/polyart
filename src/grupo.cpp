@@ -1,3 +1,4 @@
+#include "grupo.h"
 #include <iostream>
 #include <numeric>
 #include <sstream>
